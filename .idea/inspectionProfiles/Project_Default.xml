@@ -82,6 +82,7 @@
     <inspection_tool class="ResultOfObjectAllocationIgnored" enabled="true" level="WARNING" enabled_by_default="true">
       <scope name="Tests" level="WARNING" enabled="false" />
     </inspection_tool>
+    <inspection_tool class="RubyInterpreter" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="SSBasedInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
       <searchConfiguration name="Methods returning task handles should be annotated with @CheckReturnValue!" text="@$Annotation$( )&#10;$MethodType$ $Method$($ParameterType$ $Parameter$);" recursive="false" caseInsensitive="true" type="JAVA">
         <constraint name="Annotation" regexp="^.?CheckReturnValue.?$" minCount="0" maxCount="0" within="" contains="" />
